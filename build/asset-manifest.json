@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1e3064f5.css",
+    "main.js": "/static/js/main.caf0dd3f.js",
+    "static/media/Contactimage.png": "/static/media/Contactimage.e7f93aa894fa05af21eb.png",
+    "static/media/bookstore.png": "/static/media/bookstore.513fa0365253927269b9.png",
+    "static/media/banner-bg.png": "/static/media/banner-bg.cae76494a0d4aa5d4543.png",
+    "static/media/reactlogo.png": "/static/media/reactlogo.8a6fc0a24a800d1e0f4a.png",
+    "static/media/bookstoremedium.png": "/static/media/bookstoremedium.4fe9916802fd1d0c7f67.png",
+    "static/media/Certs-pic.png": "/static/media/Certs-pic.877f9dadd7cc79d931f5.png",
+    "static/media/ecommerce.png": "/static/media/ecommerce.e1048b3ce454f7957cd8.png",
+    "static/media/javalogo.png": "/static/media/javalogo.fdabd4e11f1235e4e8e0.png",
+    "static/media/avatar7.png": "/static/media/avatar7.c927c10378508b1195e6.png",
+    "static/media/footer-bg.png": "/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/ecommercemedium.png": "/static/media/ecommercemedium.14b3a1671ba86467b2a6.png",
+    "static/media/linkedinLogo.png": "/static/media/linkedinLogo.8ae736afabcafd082054.png",
+    "static/media/quizzical.png": "/static/media/quizzical.67cf70ee5faf95658b9d.png",
+    "static/media/githubLogo.png": "/static/media/githubLogo.068f50ab763d94c3e82e.png",
+    "static/media/instaLogo.png": "/static/media/instaLogo.c4f53ddd7096924ce680.png",
+    "static/media/logo.png": "/static/media/logo.f1bb9f7371db70942f62.png",
+    "index.html": "/index.html",
+    "main.1e3064f5.css.map": "/static/css/main.1e3064f5.css.map",
+    "main.caf0dd3f.js.map": "/static/js/main.caf0dd3f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e3064f5.css",
+    "static/js/main.caf0dd3f.js"
+  ]
+}
