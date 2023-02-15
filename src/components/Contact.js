@@ -29,7 +29,7 @@ export default function Contact(props) {
                 })
                 Swal.fire({
                     title: !props.language ? "Message Sent!" : "Message Envoyer!",
-                    html: "Your message has been received",
+                    html: !props.language ? "Your message has been received" : "Merci pour votre Message",
                     icon: 'success'
                 })
     }
