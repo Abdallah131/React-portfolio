@@ -24,9 +24,7 @@ export default function ProjectCard(props) {
             <p>{!props.language ?" Tools" : "Outils"}:</p>
             {props.tools.map((tool) => {
                 return(
-                <div className="Body--tools">
-                    <b>{tool}</b>
-                </div>
+                    <p style={{ marginBottom:"30px", fontSize:"16px"}}>{tool}</p>
                 )
             })}
            <a href={props.url} target="_blank" rel="noreferrer"><button>{!props.language ? "Github Repository": "Github"}</button></a>

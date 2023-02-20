@@ -51,14 +51,12 @@ img {
     text-decoration: none;
     margin-right: 80px;
     color: white;
-    padding: 10px 25px;
-    border-radius: 20px;
+    padding: 30px 35px;
     transition: 0.5s;
 }
 .Header--elements a:hover{
+    box-shadow: 2px -1px 37px 0px rgba(0,0,0,0.75);
     background-color: #2c2c2c;
-    border-radius: 20px;
-    border: 1px solid white;
 }
 .Languages{
     color: white;
@@ -106,7 +104,7 @@ img {
 }
 .Home--Description h1{
     color: white;
-    margin-left: 150px;
+    margin-left: 180px;
     font-size: 50px;
 }
 .title{
@@ -133,7 +131,7 @@ img {
 .Home--Description p{
     color: white;
     margin-left: 180px;
-    font-size:20px;
+    font-size:22px;
     width: 700px;
 }
 .Home--Description button{
@@ -195,6 +193,7 @@ img {
 .Skills--title h1{
     color: white;
     font-weight: 700;
+    margin-bottom: 5px;
 }
 .Skills--title span{
     background: linear-gradient(to right, #b902d7,
@@ -341,7 +340,7 @@ img {
     color: white;
     font-size: 25px;
     font-weight: 600;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
 }
 .Elements--body button {
     color: white;
@@ -360,11 +359,6 @@ img {
 .Elements--body button:hover{
     transform: scale(1.1);
     animation: buttonAnimation 3s alternate infinite;
-}
-.Body--tools b{
-    color: white;
-    font-weight: 600;
-    font-size: 20px;
 }
 .returnarrow{
     height: 40px;
@@ -410,9 +404,6 @@ img {
     transition: 0.7s;
     display: flex;
 }
-.Certificates--Elements:hover{
-    transform: scale(1.1);
-}
 .Certificates--title span{
     color: white;
     font-weight: 700;
@@ -430,11 +421,43 @@ img {
     margin-top: 100px;
     margin-left: 130px;
 }
+.Certificates--arrow{
+    position: absolute;
+    display: flex;
+    right: -66%;
+    justify-content: space-between;
+    transition: 1s ease-in-out;
+    width: 700px;
+}
+.Certificates--arrow:hover{
+    right: 0%;
+    background-color: var(--compsBg);
+}
+.Certificates--arrow button {
+    color: white;
+    font-weight: 600;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(to left, #b902d7,
+    #7150e8, #118dff);
+    width: 200px;
+    cursor: pointer;
+    transition: 0.7s;
+    margin-top: 40px;
+    background-size: 200%;
+    margin-right: 230px;
+}
+.Certificates--arrow button:hover{
+    transform: scale(1.1);
+    animation: buttonAnimation 3s alternate infinite;
+}
 .faPlay{
     color: white;
     font-size: 30px;
     padding: 50px 10px;
     box-shadow: 2px 2px 37px 7px rgba(0,0,0,0.75);
+    transform: rotate(180deg);
 }
 .Certificates--Details {
     width: 100%;
@@ -442,12 +465,12 @@ img {
 .Certificates--Details p{
     color: var(--paragraphes);
     margin-top: -20px;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
 }
 .Certificates--Details b{
     color: var(--paragraphes);
-    float: right;
-    margin-right: 10px;
+    float: left;
+    margin-left: 10px;
 }
 /* CONTACT CSS */
 .Contact{
@@ -508,6 +531,7 @@ img {
 .Contact--Details button{
     color: white;
     font-weight: 600;
+    font-size: 15px;
     padding: 20px;
     border-radius: 20px;
     border: none;
@@ -662,7 +686,8 @@ img {
     font-size: 15px;
 }
 .Elements--body button {
-    margin-top: 10px;
+    padding: 15px;
+    margin-top: -40px;
 }
     /*CERTIFICATES*/
 .Certificates--title span{
@@ -684,6 +709,16 @@ img {
 }
 .Certificates--Details p {
     font-size: 15px;
+}
+.Certificates--arrow{
+    right: -78%;
+    width: 550px;
+}
+.Certificates--arrow:hover{
+    right: 0%;
+}
+.Certificates--arrow button {
+    margin-right: 150px;
 }
     /*CONTACT*/
 .Contact--Details input{
@@ -802,12 +837,6 @@ img {
     margin-top: 20px;
 }
     /* CERTIFICATES.  */
-.Certificates--title span{
-    text-align: center;
-}
-.Certificates--Elements:nth-child(1){
-    margin-top: 100px;
-}
 .Certificates--title img{
     display: none;
 }
@@ -819,6 +848,17 @@ img {
     height: 130px;
     margin-left: -300px;
     width: 600px;
+    margin-top: 60px;
+}
+.Certificates--arrow{
+    right: -186%;
+    width: 600px;
+}
+.Certificates--arrow:hover{
+    right: 0%;
+}
+.Certificates--arrow button {
+    margin-right: 180px;
 }
     /* FOOTER.  */
 .Footer button {
@@ -847,6 +887,7 @@ img {
 .Home--Description h1{
     font-size: 30px;
     margin-bottom: 40px;
+    margin-left: 80px;
 }
 .title--element{
     font-size: 30px;
@@ -901,12 +942,20 @@ img {
 }
 .Certificates--Elements{
     height: 140px;
+    margin-top: 50px;
     margin-left: -320px;
     width: 430px;
     box-shadow: none;
 }
-.Certificates--Elements:hover{
-transform: scale(1.02);
+.Certificates--arrow{
+    right: -352%;
+    width: 430px;
+}
+.Certificates--arrow:hover{
+    right: 0%;
+}
+.Certificates--arrow button {
+    margin-right: 80px;
 }
 .faPlay{
     padding: 55px 10px;
