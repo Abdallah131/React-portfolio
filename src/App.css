@@ -161,9 +161,9 @@ img {
     width: 50%;
 }
 .Home--Images img {
-    height: 600px;
-    margin-left: 200px;
-    margin-top: 250px;
+    height: 1000px;
+    margin-left: 170px;
+    margin-top: 50px;
 }
 .Home--logos img{
     padding: 20px;
@@ -648,9 +648,9 @@ img {
     display: none;
 }
 .Home--Images img {
-    height: 400px;
-    margin-left: 100px;
-    margin-top: 300px;
+    height: 1000px;
+    margin-left: -50px;
+    margin-top: 100px;
 }
     /*PROJECTS*/
 .Projects--title span:nth-child(1){

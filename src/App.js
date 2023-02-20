@@ -23,7 +23,7 @@ function App() {
     setLoading(true)
     setTimeout(()=>{
       setLoading(false)
-    },5000)
+    },4000)
   },[])
   function toggleLanguage() {
     setLanguage(prevLanguage => !prevLanguage)
